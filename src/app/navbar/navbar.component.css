@@ -1,0 +1,14 @@
+.navbar-nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+  }
+  .nav-item.login {
+    margin-left: auto;
+  }
+
+body{
+  background-color:black;
+  color: wheat;
+}

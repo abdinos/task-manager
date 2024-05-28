@@ -1,0 +1,14 @@
+.details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    height: 100%; /* Adjust as needed */
+  }
+  
+  .btn.btn-primary.close {
+    align-self: flex-end;
+    order: 2;
+  }
+  

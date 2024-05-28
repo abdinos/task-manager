@@ -1,0 +1,10 @@
+<app-navbar></app-navbar>
+<div class="view-btn"><a class="btn btn-primary" (click)="openCreateDialog()">View</a></div>
+<div class="list-content">
+  <div class="list-title"><h1>this is your list of tasks</h1></div>
+  <div class="thumbnail-grid">
+    <div class="thumbnail-container" *ngFor="let task of taskList">
+      <app-task-thumbnail class="thumbnail" [task]="task"></app-task-thumbnail>
+    </div>
+  </div>
+</div>
